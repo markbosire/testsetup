@@ -5,5 +5,5 @@ interface HelloProps {
 }
 
 export const Hello: FC<HelloProps> = ({ name }) => {
-  return <div>Hello, {name}!</div>;
+  return <div>Hello, {name}! how are you</div>;
 };
